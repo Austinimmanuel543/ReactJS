@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+html{
+  scroll-behavior:smooth;
+}
+
+.tittleH1{
+  font-family: Montserrat !important;
+  font-weight: 600!important;
+  color: #1b1b1b;
+}
+
+.tittleH1::first-letter{
+  text-transform: uppercase;
+}
+
+.plantPrimary {
+  color: #3dcc62 !important;
+}
+
+
+.plantDanger {
+  color: #df3333 !important;
+}
+
+.plantBGPrimary {
+  background-color: #3dcc62 !important;
+  color: white;
+}
+
+
+
+

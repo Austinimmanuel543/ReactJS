@@ -1,0 +1,54 @@
+.topCart{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cleanCart:hover {
+    cursor: pointer;
+    color:red;
+}
+
+td{
+    padding: 2rem 2rem 2rem 2rem !important;
+}
+
+.listImage{
+    width: 5rem;
+    height: auto;
+}
+
+.removeSpan {
+    position: absolute;
+    margin-left: -7rem;
+}
+
+td, .removeSpan{
+    border-top: none !important;
+}
+
+.remove{
+    color: #dadada;
+    font-size: 3rem;
+    margin-top: -1rem;
+}
+
+.remove:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.total{
+    text-align: right;
+    margin-right: 1.5rem;
+}
+
+.checkout{
+    width: 15rem;
+    margin-top: 2rem;
+}
+
+.bottomCart{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

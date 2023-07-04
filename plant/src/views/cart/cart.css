@@ -1,0 +1,114 @@
+.topCart{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cleanCart:hover {
+    cursor: pointer;
+    color:red;
+}
+
+td{
+    padding: 2rem 2rem 2rem 2rem !important;
+}
+
+.listImage{
+    width: 5rem;
+    height: auto;
+}
+
+.removeSpan {
+    position: absolute;
+    margin-left: -7rem;
+}
+
+td, .removeSpan{
+    border-top: none !important;
+}
+
+.remove{
+    color: #dadada;
+    font-size: 3rem;
+    margin-top: -1rem;
+}
+
+.remove:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.total{
+    text-align: right;
+    margin-right: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.checkout{
+    width: 15rem;
+    margin-top: 2rem;
+}
+
+.bottomCart{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.modal-dialog{
+    max-width: 600px;
+    margin: 0.75rem auto;
+}
+.cartContainer{
+    background-image: url('../../assets/slide.jpg');
+    background-size: cover;
+    background-attachment: center;
+}
+.cartTableContainer{
+    padding: 10rem 0 25rem 0;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.cartQuantityText{
+    margin-bottom: 2rem;
+}
+.cartTable{
+    background-color: white;
+    border-radius: 3rem;
+    box-shadow: inset 0 0 0 5px #3dcc62;
+}
+.cartTableItem{
+    margin: 0rem 1rem;
+    border-bottom: 1px solid #dee2e6;
+}
+.formModal{
+    padding:4rem;
+}
+.emptyCartContainer{
+    padding: 15rem 0 0 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.emptyCartHeader{
+    margin-bottom: 2rem;
+}
+.emptyCartButtonContainer{
+    width: 20%;
+}
+.purchasedContainer{
+    display: flex;
+}
+.buyerName{
+    text-transform: capitalize;
+}
+.orderIdText{
+    color: #3dcc62
+}
+.purchasedButtonsContainer{
+    width: 20%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

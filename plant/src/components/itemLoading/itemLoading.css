@@ -1,0 +1,60 @@
+.cardPlantsLoading{
+    font-family: Montserrat !important;
+    background-color: transparent !important;
+    color: #1b1b1b !important;
+    width: 18rem !important;
+    height:32.5rem !important;
+    border: 0.4rem solid transparent !important;
+    border-radius: 5rem !important; 
+    margin: 1rem !important;
+    animation: fadeIn 100ms;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+  .cardPlantsImg {
+    width: 30rem !important;
+    margin-left:-6.2rem !important;
+    margin-top:-2rem !important; 
+    pointer-events: none !important;
+  }
+  
+  .cardPlantsPrice {
+    font-size: 1.8rem !important;
+    font-weight: 600!important;
+    margin-top:-0.3rem !important; 
+  }
+  
+  .cardPlantsPrice::after {
+    font-size: 1.8rem !important;
+    font-weight: 600!important;
+    margin-top:-0.3rem !important; 
+  }
+  
+  .cardPlantsName {
+    font-size: 1.1rem !important;
+    font-weight: 600!important;
+    margin-top:-0.8rem !important; 
+  }
+  
+
+  .textLoading{
+    user-select: none;
+    color: transparent!important;
+    background: linear-gradient(226deg, rgba(245,246,246,1) 0%, rgba(231,231,231,1) 25%, rgba(245,246,246,1) 50%, rgba(231,231,231,1) 76%, rgba(245,246,246,1) 100%);
+    background-size: 400% 400%;
+    -webkit-animation: textLoading 1s ease infinite;
+    -moz-animation: textLoading 1s ease infinite;
+    animation: textLoading 1s ease infinite;
+    border-radius: 1rem;
+} 
+
+@keyframes textLoading {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+  

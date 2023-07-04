@@ -1,0 +1,29 @@
+.noticeContainer{
+    background-image: url(../../assets/slide.jpg);
+    background-size: cover;
+    background-attachment: center;
+}
+.noticeRow{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.noticeSpacingCenter{
+    padding: 20rem 0 25rem 0;
+}
+.noticeSpacingTop{
+    padding: 5rem 0 25rem 0;
+}
+.noticeHeader{
+    margin-bottom: 2rem;
+}
+.noticeButtonContainer{
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.buttonSpacing{
+    margin-bottom: 1rem;
+}

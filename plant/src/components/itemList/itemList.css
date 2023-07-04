@@ -1,0 +1,14 @@
+.section{
+    scroll-margin-top: 100px;
+}
+.noCategoryContainer{
+    padding: 5rem 0 20rem 0;
+    flex-direction: column; 
+}
+
+.noCategoryHeader{
+    margin-bottom: 2rem;
+}
+.noCategoryButtonContainer{
+    width: 20%;
+}

@@ -1,0 +1,39 @@
+.counter {
+    display: flex;
+    justify-content: left;
+    align-items: top;
+    text-align: center !important;
+    margin-top: 2rem;
+  }
+
+  .buttonCounter {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100px !important;
+    background-color: #ffffff;
+    user-select:none;
+    margin: 0rem 0.5rem 0rem 0.5rem;
+  }
+
+  .buttonCounter:hover{
+    background-color: #e7e7e7;
+  }
+
+  .plantOptions {
+    display: flex;
+    justify-content: left;
+    margin-top: -0.6rem;
+  }
+
+  .finishPurchaseContainer{
+    margin-top: 1.5rem;
+  }
+  .continueBuying{
+    margin: 1rem 0 0 25%;
+  }
+  .availableStockText{
+    color:#3dcc62;
+    margin: -0.5rem 0 1.5rem 0.3rem;
+    font-size: 0.8rem;
+  }
+  

@@ -1,0 +1,42 @@
+.counter {
+    display: flex;
+    justify-content: left;
+    align-items: top;
+    text-align: center !important;
+    margin-top: 0rem !important;
+  }
+
+  .buttonCounter {
+    color: #3dcc62;
+    font-weight: bold;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100px !important;
+    background-color: #ffffff;
+    user-select:none;
+    margin: 0rem 0.5rem 0rem 0.5rem !important;
+  }
+
+  .buttonCounter:hover{
+    background-color: #cecece !important;
+    color: #1b1b1b;
+    cursor: pointer;
+  }
+
+  .counterTittle {
+    margin-bottom: 0 !important;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 0.8rem !important;
+    color: #a19c95;
+}
+
+.counterContainer {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+  text-align: center !important;
+  margin-top: 1rem;
+}
+  

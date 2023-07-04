@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+
+
+.tittleH1{
+    font-family: Montserrat !important;
+    font-weight: 600!important;
+    color: #1b1b1b;
+  }
+  
+  .plantPrimary {
+    color: #3dcc62 !important;
+  }
+  
+  
+  .plantDanger {
+    color: #df3333 !important;
+  }
+  
+  .plantBGPrimary {
+    background-color: #3dcc62 !important;
+    color: white;
+  }
+
+  .plantMainDetails {
+    display: flex;
+    justify-items: center;
+  }
+
+  .plantPrice {
+    display: flex;
+    justify-items: center;
+  }
+
+  .priceText {
+    font-weight: 400 !important;
+  }
+
+  .images{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .plantImage {
+      max-width: 180% !important;
+      margin: -1rem 0 0 -15rem;
+      position: absolute !important;
+      pointer-events: none !important;
+      user-select: none;
+  }
+
+  .plantSeeds {
+    max-width: 40% !important;
+    margin: 30rem 0 0 4rem;
+    position: absolute !important;
+    pointer-events: none !important;
+    user-select: none;
+}
+
+  .compraProtegida {
+    display: flex;
+    justify-items: center;
+    text-align: left;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    color: #a19c95;
+  }
+
+  .plantInteractive {
+      width: 60%;
+  }
+  .plantFeatures {
+    width: 40%;
+    font-family: Montserrat;
+}
+
+.plantShipping {
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+.shippingText {
+    font-family: Montserrat !important;
+    font-size: 1rem;
+    color: #828683;
+    font-weight: 400 !important;
+    margin-bottom: 0;
+}
+
+.linkSmall {
+    position: absolute;
+    font-size: 0.8rem;
+    margin-top: -0.3rem;
+}
+
+.plantDescription {
+    color: #a19c95;
+    margin-bottom: 2rem;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+.plantName {
+  height: 6rem;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+ul {
+    list-style: none; /* Remove default bullets */
+  }
+  
+  ul li::before {
+    content: "\2022";
+    color: #3dcc62;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+
+  li {
+    color: #1b1b1b;
+    margin: 0.2rem 0;
+    white-space: nowrap;
+  }
+  .plantDetails {
+      background-color: #e7e7e7;
+      background-image: url('../../assets/bg-detail.png');
+      background-size: cover;
+      background-position: 50%;
+      animation: fadeIn 1s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+  .detailsSection2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .userCardName {
+      display: flex;
+      align-items: center;
+  }
+
+  .userCardComment {
+      background-color: #fff;
+      border-radius: 1rem;
+      padding: 2rem 1.5rem 1.5rem 1.5rem;
+      box-shadow: rgba(0,0,0,0.2) 20px 20px 50px;
+      margin-top: -1rem;
+      margin-bottom: 2rem;
+      border: #3dcc62 solid 5px;
+  }
+  .plantCaracteristicas {
+      font-family: Montserrat;
+      font-size: 1.4rem;
+  }
+
+  .featuresList {
+    display: flex;
+    justify-content:flex-end;
+    align-items: left;
+    flex-direction: column;
+  }
+
+  .loader {
+    color:#3dcc62;
+    font-size: 3rem;
+    animation: spin-animation 0.5s infinite;
+    display: inline-block;
+  }
+  
+  @keyframes spin-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(359deg);
+    }
+  }
+  .noPlantContainer{
+    padding: 15rem 0 20rem 0;
+    flex-direction: column;
+  }
+  .noPlantHeader{
+    margin-bottom: 2rem;
+  }
+  .noPlantButtonContainer{
+    width: 20%;
+  }
+  .plantInfoContainer{
+    padding-top: 8rem;
+  }
+  .featuresContainer{
+    margin-top: 2rem;
+  }
+  .infoHeader{
+    color: #828683;
+  }
+  .plantImageFeatures{
+    max-width: 100%;
+    user-select: none;
+  }
+  .userCommentImage{
+    border-radius: 100%;
+    margin-right: 1rem;
+  }
+  .loaderContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15rem 0 20rem 0;
+    flex-direction: column ;
+  }
+  .wishListButton{
+    display:contents;
+  }

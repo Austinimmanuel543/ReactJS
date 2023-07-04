@@ -1,0 +1,6 @@
+.footer{
+    font-family: 'Montserrat';
+    padding: 3rem 0rem 7rem 0rem;
+    border-top: 1px rgba(0,0,0,0.1) solid;
+    box-shadow: rgb(231 231 231 / 60%) -1px 1px 40px 3px;
+}

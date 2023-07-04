@@ -1,0 +1,29 @@
+.plantDropdown {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:center;
+    margin: 0 0.5rem;
+}
+
+.dropdownTittle {
+    margin-bottom: 0 !important;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 0.8rem !important;
+    color: #a19c95;
+}
+
+.dropdownSelect {
+    font-family: Montserrat;
+    text-align-last:center;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.dropdownSelect:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}

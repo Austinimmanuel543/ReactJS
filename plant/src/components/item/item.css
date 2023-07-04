@@ -1,0 +1,112 @@
+.cardPlants{
+    font-family: Montserrat !important;
+    background-color: transparent !important;
+    color: #1b1b1b !important;
+    width: 18rem !important;
+    height:32.5rem !important;
+    border: 0.4rem solid transparent !important;
+    border-radius: 5rem !important; 
+    transition: 200ms ease-in-out;
+    margin: 1rem !important;
+    animation: fadeIn 1s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  .cardPlants:hover {
+    cursor: pointer;
+    border-color: #3dcc62 !important;
+    background: linear-gradient(180deg, rgba(226,247,232,1) 0%, rgba(255,255,255,0) 100%);
+    box-shadow: -1px 1px 40px 3px rgba(61,204,98,0.12);
+    transform: scale(1.02);
+    transition: 250ms ease-in-out;
+  }
+  
+  
+  
+  .cardPlantsImg {
+    width: 30rem !important;
+    margin-left:-6.2rem !important;
+    margin-top:-2rem !important; 
+    pointer-events: none !important;
+    transition: 200ms ease-in-out;
+    animation: fadeIn 2s;
+  }
+  
+  .cardPlantsPrice {
+    font-size: 1.8rem !important;
+    font-weight: 600!important;
+    margin-top:-0.3rem !important; 
+  }
+  
+  .cardPlantsPrice::after {
+    font-size: 1.8rem !important;
+    font-weight: 600!important;
+    margin-top:-0.3rem !important; 
+  }
+  
+  .cardPlantsName {
+    font-size: 1.1rem !important;
+    font-weight: 600!important;
+    margin-top:-0.8rem !important; 
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cardPlants:hover .cardPlantsName{
+    color: #3dcc62;
+  }
+  
+  .cardPlantsTagline {
+    color:transparent !important;
+    font-size: 0.8rem !important;
+    margin-top: -0.8rem !important;
+    transition: 200ms ease-in-out;
+  }
+  
+  .cardPlants:hover .cardPlantsTagline {
+    color: #3dcc62 !important;
+    transition: 200ms ease-in-out;
+  }
+
+  .cardPlants:hover .cardPlantsImg {
+    color: #3dcc62 !important;
+    transform-origin: bottom center;
+    transform: scale(1.06);
+    transition: 250ms ease-in-out;
+  }
+  .noUnderLine{
+    text-decoration: none !important;
+  }
+  .outOfStockText{
+    color: red;
+  }
+.wishlisted{
+  position: absolute;
+  left: 10rem;
+  bottom: 8rem;
+  z-index: 1000;
+  font-size: 4rem;
+  transform: rotate(15deg);
+  transform: scale(1);
+  transition: 500ms ease-in-out;
+  animation: popUp 500ms;
+}
+@keyframes popUp {
+  0% {
+    opacity:0;
+    transform: rotate(0deg);
+    transform: scale(0);
+  }
+  45% {
+    transform: scale(4);
+  }
+  100% {
+    opacity:1;
+    transform: rotate(45deg);
+    transform: scale(1);
+
+  }
+}

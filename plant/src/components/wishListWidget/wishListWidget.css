@@ -1,0 +1,26 @@
+.wishListWidget{
+    display: flex;
+    align-items: center;
+    margin:0 2rem;
+    cursor: pointer;
+}
+
+.wishListItem{
+    padding:0.5rem 1rem 0.5rem 0;
+    border-bottom: #e7e7e7 1px solid;
+    display: flex;
+}
+.wishListItem:hover{
+    cursor: pointer;
+}
+
+.wishListItemImage{
+    width: 4rem;
+}
+.emptyWishList{
+    padding:1rem 1rem;
+}
+.wishListName:hover{
+    text-transform: none;
+    text-decoration: none;
+}

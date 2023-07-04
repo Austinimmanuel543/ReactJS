@@ -1,0 +1,37 @@
+.linkCategory{
+    color: rgba(0,0,0,.5);
+    text-decoration: none;
+    text-transform: capitalize;
+    display: block;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+}
+.linkCategory:hover{
+    text-decoration: none;
+    color: rgba(0,0,0,.7);
+}
+.linkCategory p {
+    margin-bottom: 0rem;
+    animation: fadeIn 1s;
+}
+
+.linkCategoryActive {
+    color: #3dcc62;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  .logo{
+      width: 6rem;
+  }
+  .nav_hover:hover{
+      background-color: rgb(204, 14, 204);
+      color: #fff;
+  }
