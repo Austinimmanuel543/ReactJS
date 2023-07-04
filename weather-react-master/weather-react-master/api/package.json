@@ -1,0 +1,17 @@
+{
+  "name": "weather-react",
+  "version": "1.0.0",
+  "description": "Serverless API functions to provide data for weather-react app",
+  "keywords": [
+    "Weather React",
+    "OpenWeather",
+    "Proxy Server",
+    "Serverless API Function"
+  ],
+  "author": "Sai Nikhil",
+  "license": "MIT",
+  "repository": "weather-react",
+  "dependencies": {
+    "axios": "^0.21.4"
+  }
+}
