@@ -1,0 +1,19 @@
+.checkout__item{
+	display: flex;
+	justify-content: space-around;
+	background-color: wheat;
+	align-items: center;
+	width: 450px;
+	height: 180px;
+	margin: 5px;
+	padding: 20px;
+	border-radius: 5px;
+}
+.checkout__item img{
+	max-height: 175px;
+	max-width: 135px;
+}
+.checkout__itemInfoHeading{
+	color: brown;
+	font-weight: bold;
+}

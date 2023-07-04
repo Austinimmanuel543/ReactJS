@@ -1,0 +1,15 @@
+.bookdescription {
+  margin: auto;
+  padding: 20px;
+  background-image: linear-gradient(180deg, #ffff0036, white);
+}
+.bookdescription__title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bookdescription__title img{
+   max-width: 20rem;
+}

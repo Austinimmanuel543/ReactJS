@@ -1,0 +1,70 @@
+
+.book__container{
+	display: flex;
+	cursor: pointer;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.book__container img{
+	padding: 10px;
+	border-radius: 10px;
+	max-height: 18rem;
+	max-width: 15rem;
+	object-fit: contain;
+	align-self: center;
+}
+.book__containerDescPrice{
+	font-size: 18px;
+	color: forestgreen;
+	word-wrap: break-word;
+}
+.book__containerDescAuthor{
+	font-size: 18px;
+	color: brown;
+	word-wrap: break-word;
+}
+
+.book{
+	width: 18rem;
+	color: grey;
+	word-wrap: break-word;
+	max-height: 700px;
+	background-color: #303f9f33;
+	margin: 0.5rem;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 10px;
+	box-shadow: 1px 1px lightgrey;
+}
+.book button{
+  cursor: pointer;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.book:hover{
+	transform: scale(1.01);
+	transition: transform 0.5s;
+}
+.book a{
+	color: black;
+	text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+ 	.book__containerDesc{
+		display: none; 		
+ 	}
+ 	.author{
+ 		display: none;
+ 	}
+ 	.book{
+ 		width: 12rem;
+ 	}
+ 	.book__container img{
+ 		max-width: 10rem;
+ 	}
+}

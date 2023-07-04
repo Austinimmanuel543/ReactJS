@@ -1,0 +1,22 @@
+.body{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	background-image: linear-gradient(180deg, #ffff0036, white);
+	box-shadow: 1px 1px lightgrey;
+}
+.body__filter {
+	padding: 10px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.body__filter select{
+	width: 200px;
+	height: 30px;
+}
+.body__normalBody{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}

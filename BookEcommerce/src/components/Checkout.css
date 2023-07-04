@@ -1,0 +1,54 @@
+.checkout{
+	margin: auto;
+	text-align: center;
+}
+.checkout h3{
+	color: forestgreen;
+}
+.checkout__total{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.checkout__total button{
+	background-color: slateblue;
+	font-size: 15px;
+	border-radius: 5px;
+	cursor: pointer;
+	color: white;
+	border: none;
+	height: 40px;
+}
+.checkout__items{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.form__shipping{
+	display: flex;
+	margin: auto;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.form__shipping input{
+	margin: auto;
+	padding: 10px;
+	font-size: medium;
+	width: 300px;
+}
+
+.form__shipping > label{
+	font-weight: bolder;
+	margin: 10px;
+}
+.form__shipping button{
+	width: fit-content;
+	margin: auto;
+	background-color: slateblue;
+	font-size: 15px;
+	border-radius: 5px;
+	cursor: pointer;
+	color: white;
+	border: none;
+	height: 40px;
+}

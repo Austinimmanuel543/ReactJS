@@ -1,0 +1,20 @@
+.cartitem {
+  color: black;
+  align-items: center;
+  padding: 10px;
+  font-size: 1rem;
+  width: fit-content;
+  margin: 10px;  
+  box-shadow: 1.5px 1.5px #888888;
+}
+
+.cartitem button {
+  font-size: 1rem;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.cartitem img {
+  padding: 10;
+  width: 15em;
+  height: 20em;
+}

@@ -1,0 +1,18 @@
+.body__myAccount{
+	display: flex;
+	margin: auto;
+	flex-direction: column;
+	box-shadow: 1px 1px lightgrey;
+}
+.body__myAccountImage img{
+	height: 15rem;
+}
+
+#smt-button{
+	background-color: steelblue;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 1.25rem;
+	height: fit-content;
+}

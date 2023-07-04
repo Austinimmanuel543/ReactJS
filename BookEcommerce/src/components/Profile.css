@@ -1,0 +1,13 @@
+.profile{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	background-image: linear-gradient(180deg, #ffff0036, white);
+}
+.profile__form{
+	padding: 10px;
+	margin: auto;
+}
+.profile__formPhoto{
+	margin: 30px;
+}
